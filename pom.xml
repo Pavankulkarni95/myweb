@@ -27,7 +27,11 @@
       <url>http://65.2.180.102:8081/repository/myapp/</url>
    </repository>
 </distributionManagement>
-	
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.1</version>
+</plugin>
 	<pluginRepositories>
 	    <pluginRepository>    
 		<id>maven1</id>

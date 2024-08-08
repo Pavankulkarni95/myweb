@@ -25,7 +25,7 @@
 	<distributionManagement>
 		<repository>
 		    <id>nexus</id>
-		    <url>http://65.2.180.102:8081/repository/myapp/</url>
+		    <url>http://13.233.130.201:8081/repository/myapp/</url>
 		</repository>
   	</distributionManagement>
 	

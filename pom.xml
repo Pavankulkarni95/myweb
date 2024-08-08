@@ -28,7 +28,7 @@
    </repository>
 </distributionManagement>
 	
-	<<pluginRepositories>
+	<pluginRepositories>
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>

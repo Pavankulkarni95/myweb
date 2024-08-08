@@ -19,9 +19,9 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-</dependencies>
+	</dependencies>
 
-	<distributionManagement>
+<distributionManagement>
    <Repository>
       <id>nexus</id>
       <url>http://65.2.180.102:8081/repository/myapp/</url>

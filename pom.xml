@@ -5,9 +5,13 @@
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
-	<name>my-app</name>
+	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-
+	
+	<properties>
+	     <maven.compiler.source>1.8</maven.compiler.source>
+	     <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -15,27 +19,23 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
 
-	<distributionManagement>		
+	</dependencies>
+	
+	<distributionManagement>
 		<repository>
 		    <id>nexus</id>
 		    <url>http://65.2.180.102:8081/repository/myapp/</url>
 		</repository>
   	</distributionManagement>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.3.1</version>
-			</plugin>
-		</plugins>
-	</build>
 	
-	<properties>
-   		<maven.compiler.source>7</maven.compiler.source>
-   		<maven.compiler.target>1.7</maven.compiler.target>
- 	</properties>
+	<pluginRepositories>
+	    <pluginRepository>    
+		<id>maven1</id>
+		<name>Maven.org</name>
+		<url>http://repo1.maven.org/maven2</url>
+	    </pluginRepository>
+	</pluginRepositories>
+
 	
 </project>

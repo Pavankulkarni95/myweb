@@ -1,5 +1,5 @@
 <html>
 <body>
-	<h1 style="color: Green; font-size: 40px;" align="center"> Welcome to DevOps class. This is sonarQube Analysis </h1>
+	<h1 style="color: Black; font-size: 40px;" align="center"> SonarQube Scanner job for Java Application </h1>
 </body>
 </html>

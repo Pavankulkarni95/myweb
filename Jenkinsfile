@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Welcome"){
             steps{
-                echo Welcome to my company
+                sh 'echo Welcome to my company'
             }
         }
         stage("Maven Build"){
